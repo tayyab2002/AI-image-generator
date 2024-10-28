@@ -62,7 +62,7 @@ const Home = () => {
   const item ={
     photo:"https://i.pcmag.com/imagery/articles/03a3gbCKfH8dDJnjhHLuHDf-1..v1665523315.png",
     author:"testing",
-    prompy:"robotic"
+    prompt:"robotic"
   }
   return (
     <Container>

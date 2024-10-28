@@ -72,7 +72,7 @@ const ImageCard = ({ item }) => {
         style={{ borderRadius: "12px" }}
       />
       <HoverOverlay>
-        <Prompt>• working</Prompt>
+        <Prompt>• {item?.prompt}</Prompt>
         <div
           style={{
             width: "100%",
