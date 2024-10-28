@@ -60,7 +60,7 @@ Copy code
 npm start
 Usage
 Run both frontend and backend servers.
-Navigate to http://localhost:5173 in your browser.
+Navigate to http://localhost:3000 in your browser.
 Input a text prompt and click "Generate" to create an image.
 View generated images in your gallery.
 Environment Variables
