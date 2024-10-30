@@ -1,6 +1,16 @@
 const app = require("./app");
+const connectDB = require("./config/dbconnection");
 
 
-app.listen(8000, () => {
-    console.log("Server is working on 8000 PORT");
-})
+const ServerStart = async ()=>{
+    try {
+        app.listen(process.env.PORT, () => {
+            console.log(`Server is working on ${process.env.PORT} PORT`);
+        })
+        connectDB();
+    } catch (error) {
+        console.log(error.message);
+    }
+};
+
+ServerStart();
