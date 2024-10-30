@@ -1,5 +1,6 @@
 const OpenAI = require("openai");
 require("dotenv").config();
+
 const openai = new OpenAI({
     apikey: process.env.OPENAI_BASE_URL,
 
